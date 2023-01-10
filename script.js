@@ -51,4 +51,16 @@ if(name == "Nathan"){
 }
   
 
+function addNumbers(num1, num2){
+    const total = num1 + num2;
+    return total;
+}
+
+const addedTotal = addNumbers(1, 9);
+
+function greeting(name)
+{
+    return(`Hello ${name}`);
+}
+const mentor = greeting("Eric")
 document.getElementById("demo").innerHTML = "Data Structures " + str + num + flt;
